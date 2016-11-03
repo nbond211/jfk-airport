@@ -87,17 +87,68 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-sm-12">
+                <div class="col-lg-12 col-sm-12 text-center">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Flight Info</h2>
                 </div>
-                
+
                 <div class="col-md-3">
-                
+                    <div class="row">
+                        <div class="radio">
+                            <label>
+                                <input ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="arrivals" checked> Arrivals</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="departures" checked> Departures</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="basic-url">Flight Number</label>
+                        <div class="input-group">
+                            <input ng-model="flightNumber" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="basic-url">Airline</label>
+                        <div class="input-group">
+                            <select class="form-control" name="repeatSelect" id="repeatSelect" ng-model="airline">
+                                <option ng-repeat="airline in airlines" value="{{airline}}">{{airline}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="basic-url">Date</label>
+                        <div class="input-group">
+                            <input class="form-control" type="date" name="bday">
+                        </div>
+                    </div>
                 </div>
-                
                 <div class="col-md-9">
-                
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Flight Number</th>
+                                <th>Airline</th>
+                                <th>Location</th>
+                                <th>Terminal</th>
+                                <th>Gate</th>
+                                <th>Status</th>
+                                <th>Scheduled</th>
+                            </tr>
+                        </thead>
+                        <tbody ng-repeat="flight in flights">
+                            <tr ng-show="filterFlight(flight)">
+                                <td>{{flight.flightNumber}}</td>
+                                <td>{{flight.airline}}</td>
+                                <td>{{flight.location}}</td>
+                                <td>{{flight.terminal}}</td>
+                                <td>{{flight.gate}}</td>
+                                <td>{{flight.status}}</td>
+                                <td>{{flight.scheduled}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
 
