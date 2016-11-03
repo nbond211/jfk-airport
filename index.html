@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="jfkApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>JFK International Airport</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="LanguageController">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">JFK International Airport</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">Flight Info</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting To and From</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Car Rental</a></li>
+                            <li><a href="#">Driving Directions</a></li>
+                            <li><a href="#">Public Transport</a></li>
+                            <li><a href="#">Taxi and Van Services</a></li>
+                            <li><a href="#">Parking</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Airport Info</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Terminal Map</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>JFK International Airport</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <a name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Select Your Language</h2>
+                </div>
+                <div class="col-md-2 col-md-offset-1 text-center language-option" ng-click="selectLang('english')" ng-class="{selected: (selectedLang == 'english')}">
+                    <img height="50px;" src="img/us.svg">
+                    <p class="text-center">English</p>
+                </div>
+                <div class="col-md-2 text-center language-option" ng-click="selectLang('chinese')" ng-class="{selected: (selectedLang == 'chinese')}">
+                    <img height="50px;" src="img/cn.svg">
+                    <p class="text-center">Chinese</p>
+                </div>
+                <div class="col-md-2 text-center language-option" ng-click="selectLang('spanish')" ng-class="{selected: (selectedLang == 'spanish')}">
+                    <img height="50px;" src="img/es.svg">
+                    <p class="text-center">Spanish</p>
+                </div>
+                <div class="col-md-2 text-center language-option" ng-click="selectLang('french')" ng-class="{selected: (selectedLang == 'french')}">
+                    <img height="50px;" src="img/fr.svg">
+                    <p class="text-center">French</p>
+                </div>
+                <div class="col-md-2 text-center language-option" ng-click="selectLang('german')" ng-class="{selected: (selectedLang == 'german')}">
+                    <img height="50px;" src="img/de.svg">
+                    <p class="text-center">German</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h2 class="section-heading">Flight Info <br> <i class="fa fa-plane" aria-hidden="true"></i></h2>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2 class="section-heading">Getting To and From <br> <i class="fa fa-taxi" aria-hidden="true"></i></h2>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h2 class="section-heading">Airport Info <br> <i class="fa fa-info-circle" aria-hidden="true"></i></h2>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; JFK International Airport 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
