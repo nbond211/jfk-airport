@@ -35,16 +35,16 @@ display: block;
 }
 
 .language-option:hover {
-    background-color: slategray;
+    background-color: lightslategray;
 }
 
 .selected {
-    background-color: slategray;
+    background-color: lightgray;
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 160px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 130px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/banner-bg-fade.jpg) no-repeat center center;
@@ -100,7 +100,7 @@ display: block;
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #f8f8f8;
 }
 
@@ -118,6 +118,10 @@ display: block;
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
+}
+
+.icon {
+    color: #cccccc;
 }
 
 .banner {
