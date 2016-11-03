@@ -1,0 +1,127 @@
+flightNumber,airline,location,terminal,gate,status,scheduled
+1,Delta,London (LHR), 4 ,B33,Arrived,2:32 PM
+2,Delta,London (LHR), 4 ,C68,In Air,4:55 PM
+4,Delta,"Las Vegas, NV (LAS)", 2 ,B30,In Air,6:45 PM
+40,Delta,"Los Angeles, CA (LAX)", 4 ,B24,In Air,5:19 PM
+42,Delta,"Atlanta, GA (ATL)", 2 ,C65,Scheduled,5:35 PM
+43,Delta,Brussels (BRU), 4 ,B34,Arrived,1:18 PM
+44,Delta,"Los Angeles, CA (LAX)", 4 ,B20,In Air,7:54 PM
+45,Delta Air Line,Dublin (DUB), 4 ,B24,Arrived,1:46 PM
+46,Delta Air Line,"Fort Lauderdale, FL (FLL)", 2 ,C63,In Air,3:59 PM
+47,Delta Air Line,Amsterdam (AMS), 4 ,B36,Arrived,1:03 PM
+49,Delta Air Line,Amsterdam (AMS), 4 ,B38,Arrived,2:18 PM
+212,Delta Air Line,Nice (NCE), 4 ,B39,In Air,4:46 PM
+215,Delta Air Line,Madrid (MAD), 4 ,B28,Arrived,1:14 PM
+302,Delta Air Line,San Juan (SJU), 2 ,C62,In Air,5:20 PM
+328,Delta Air Line,St. Maarten (SXM), 4 ,B23,In Air,6:20 PM
+329,Delta Air Line,"Orlando, FL (MCO)", 4 ,B35,Arrived,2:14 PM
+354,Delta Air Line,Santo Domingo (SDQ), 4 ,B20,In Air,6:10 PM
+372,Delta Air Line,Nassau (NAS), 2 ,C68,In Air,3:56 PM
+382,Delta Air Line,Santiago (STI), 4 ,B34,In Air,5:14 PM
+402,Delta Air Line,"Charleston, SC (CHS)", 2 ,C69,Scheduled,7:00 PM
+404,Delta Air Line,"Tampa, FL (TPA)", 2 ,C67,In Air,4:12 PM
+405,Delta Air Line,Paris (CDG), 4 ,B41,Arrived,2:03 PM
+406,Delta Air Line,"Los Angeles, CA (LAX)", 4 ,B36,Scheduled,9:22 PM
+407,Delta Air Line,"Miami, FL (MIA)", 2 ,C69,In Air,4:31 PM
+408,Delta Air Line,Zurich (ZRH), 4 ,B32,In Air,4:40 PM
+409,Delta Air Line,"Orlando, FL (MCO)", 2 ,C70,In Air,5:13 PM
+410,Delta Air Line,Edinburgh (EDI), 4 ,B39,Arrived,1:25 PM
+411,Delta Air Line,"Seattle, WA (SEA)", 4 ,B35,In Air,4:10 PM
+413,Delta Air Line,"Minneapolis, MN (MSP)", 2 ,C63,Arrived,2:39 PM
+418,Delta Air Line,"San Francisco, CA (SFO)", 2 ,C64,In Air,4:55 PM
+419,Air France,Milano (MXP), 4 ,B37,Arrived,1:18 PM
+420,Air France,"Atlanta, GA (ATL)", 4 ,B32,Arrived,2:36 PM
+444,Air France,"Salt Lake City, UT (SLC)", 4 ,B38,In Air,5:35 PM
+445,Air France,Rome (FCO), 4 ,B36,In Air,4:32 PM
+446,Air France,"Denver, CO (DEN)", 2 ,C69,In Air,5:56 PM
+40,Air France,"Atlanta, GA (ATL)", 2 ,C69,Scheduled,8:16 PM
+42,Air France,Venice (VCE), 4 ,B22,In Air,4:36 PM
+43,Air France,"Boston, MA (BOS)", 2 ,C63,Scheduled,6:40 PM
+44,Air France,Barcelona (BCN), 4 ,B36,Arrived,3:02 PM
+45,Air France,Santo Domingo (SDQ), 4 ,B32,Scheduled,9:02 PM
+46,American Airlines,"San Francisco, CA (SFO)", 4 ,B26,In Air,7:58 PM
+47,American Airlines,Charlotte Amalie (STT), 2 ,C63,In Air,5:40 PM
+49,American Airlines,Montego Bay (MBJ), 4 ,B20,In Air,5:59 PM
+212,American Airlines,Aruba (AUA), 4 ,B28,In Air,7:14 PM
+215,American Airlines,"Boston, MA (BOS)", 2 ,C68,Arrived,2:30 PM
+302,American Airlines,Punta Cana (PUJ), 4 ,B22,In Air,5:34 PM
+328,American Airlines,Mexico City (MEX), 4 ,B37,Scheduled,8:53 PM
+329,American Airlines,Seoul (ICN), 1,,In Air,8:30 PM
+1006,American Airlines,Shanghai (PVG), 1,,Arrived,2:25 PM
+1019,American Airlines,Paris (CDG), 1,,In Air,7:10 PM
+1020,American Airlines,Paris (CDG), 1,,In Air,5:05 PM
+1022,American Airlines,Paris (CDG), 1,,Arrived,1:00 PM
+1029,Korean Air,Mexico City (MEX), 1,,In Air,4:30 PM
+1030,Korean Air,Mexico City (MEX), 1,,Arrived,1:30 PM
+1043,Korean Air,Rome (FCO), 1,,In Air,7:35 PM
+1044,Korean Air,Rome (FCO), 1,,In Air,3:25 PM
+1045,Korean Air,Milano (MXP), 1,,In Air,5:25 PM
+1047,Korean Air,Rome (FCO), 1,,Arrived,2:30 PM
+1140,Korean Air,"Phoenix, AZ (PHX)", 2 ,C63,Departed,7:54 PM
+1381,Korean Air,"Washington, DC (DCA)", 2 ,C61,Scheduled,6:45 PM
+40,Korean Air,"Atlanta, GA (ATL)", 2 ,C66,In Air,4:29 PM
+42,Korean Air,"Salt Lake City, UT (SLC)", 4 ,B24,Landed,3:04 PM
+43,Korean Air,"Los Angeles, CA (LAX)", 4 ,B38,In Air,3:55 PM
+44,Korean Air,St George (BDA), 4 ,B20,Arrived,2:18 PM
+45,Korean Air,"Las Vegas, NV (LAS)", 4 ,B20,Arrived,2:13 PM
+46,Korean Air,"Denver, CO (DEN)", 2 ,C64,Arrived,1:30 PM
+47,Korean Air,"New Orleans, LA (MSY)", 2 ,C61,In Air,3:15 PM
+49,Korean Air,"San Francisco, CA (SFO)", 2 ,C66,In Air,3:00 PM
+212,Korean Air,"Phoenix, AZ (PHX)", 4 ,B22,Arrived,2:31 PM
+215,Korean Air,"San Antonio, TX (SAT)", 2 ,C66,Arrived,1:00 PM
+302,Korean Air,"Portland, OR (PDX)", 4 ,B28,Arrived,2:45 PM
+328,Korean Air,"San Diego, CA (SAN)", 2 ,C65,In Air,3:31 PM
+329,Korean Air,"Minneapolis, MN (MSP)", 2 ,C66,Scheduled,6:45 PM
+2498,Korean Air,"Charleston, SC (CHS)", 2 ,C62,Arrived,1:52 PM
+2554,Korean Air,"Seattle, WA (SEA)", 4 ,B33,Scheduled,9:00 PM
+2635,Korean Air,"Los Angeles, CA (LAX)", 4 ,B34,Arrived,2:52 PM
+3432,Korean Air,"Philadelphia, PA (PHL)", 4 ,B46,Delayed,4:00 PM
+3509,Korean Air,"Detroit, MI (DTW)", 4 ,B48,Scheduled,5:29 PM
+3622,Korean Air,"Cleveland, OH (CLE)", 4 ,B55,Scheduled,5:50 PM
+3623,Korean Air,"Savannah, GA (SAV)", 4 ,B46,Scheduled,7:00 PM
+3627,Korean Air,"Cincinnati, OH (CVG)", 4 ,B51,Arrived,1:00 PM
+3640,Korean Air,"Chicago, IL (ORD)", 4 ,B44,Arrived,1:39 PM
+3710,Korean Air,"Buffalo, NY (BUF)", 2 ,C70,Scheduled,8:30 PM
+3715,Korean Air,"Pittsburgh, PA (PIT)", 4 ,B53,Scheduled,6:26 PM
+3728,Korean Air,"Norfolk, VA (ORF)", 4 ,B49,Scheduled,6:45 PM
+3771,Korean Air,Montreal (YUL), 4 ,B43,Scheduled,6:40 PM
+3781,Korean Air,"Jacksonville, FL (JAX)", 4 ,B51,Arrived,2:15 PM
+3789,Korean Air,"Dallas-Fort Worth, TX (DFW)", 4 ,B42,Landed,3:00 PM
+3819,Korean Air,"Washington, DC (IAD)", 4 ,B49,Scheduled,5:30 PM
+3829,Korean Air,"Charlotte, NC (CLT)", 4 ,B45,Arrived,1:29 PM
+3835,Korean Air,"Raleigh/Durham, NC (RDU)", 4 ,B44,In Air,3:15 PM
+3838,Korean Air,"Charlotte, NC (CLT)", 4 ,B47,Scheduled,8:08 PM
+3845,Korean Air,Montreal (YUL), 2 ,C65,Arrived,1:33 PM
+3864,Korean Air,"Jacksonville, FL (JAX)", 4 ,B53,Scheduled,7:55 PM
+3902,Korean Air,"Cleveland, OH (CLE)", 2 ,C61,Arrived,1:58 PM
+3909,Korean Air,"Raleigh/Durham, NC (RDU)", 4 ,B44,Scheduled,8:15 PM
+3942,Korean Air,"Columbus, OH (CMH)", 4 ,B53,Arrived,1:56 PM
+3946,Korean Air,"Columbus, OH (CMH)", 4 ,B55,Scheduled,7:52 PM
+3962,Korean Air,"Nashville, TN (BNA)", 4 ,B46,Scheduled,5:29 PM
+3979,Korean Air,"Savannah, GA (SAV)", 4 ,B55,Arrived,2:32 PM
+3986,Korean Air,"Washington, DC (DCA)", 2 ,C60,Arrived,2:27 PM
+3990,American Airlines,"Indianapolis, IN (IND)", 4 ,B49,In Air,4:00 PM
+3993,American Airlines,"Rochester, NY (ROC)", 4 ,B51,Scheduled,8:30 PM
+3995,American Airlines,"Chicago, IL (ORD)", 4 ,B45,In Air,3:27 PM
+4059,American Airlines,"Richmond, VA (RIC)", 4 ,B51,Scheduled,6:11 PM
+4073,American Airlines,"Syracuse, NY (SYR)", 4 ,B42,Scheduled,8:15 PM
+4080,American Airlines,"Richmond, VA (RIC)", 4 ,B49,Arrived,1:11 PM
+4083,American Airlines,"Baltimore, MD (BWI)", 4 ,B42,Scheduled,6:23 PM
+4096,American Airlines,"Cincinnati, OH (CVG)", 4 ,B47,Scheduled,5:19 PM
+4126,American Airlines,Toronto (YYZ), 4 ,B18,Scheduled,7:22 PM
+4132,American Airlines,"Chicago, IL (ORD)", 4 ,B45,Scheduled,6:25 PM
+4154,Korean Air,"Boston, MA (BOS)", 4 ,B43,Scheduled,4:28 PM
+4216,Korean Air,"Washington, DC (DCA)", 4 ,B33,Arrived,11:24 AM
+4370,Korean Air,London (LHR), 4,,Arrived,1:00 PM
+4372,Korean Air,London (LHR), 4,,In Air,6:45 PM
+4374,Korean Air,London (LHR), 4,,In Air,8:10 PM
+4413,Korean Air,London (LHR), 4,,In Air,3:50 PM
+6208,Korean Air,"Syracuse, NY (SYR)", 4 ,B18,Arrived,1:00 PM
+6279,Korean Air,"Rochester, NY (ROC)", 2 ,C60,Arrived,12:57 PM
+6280,Korean Air,"Raleigh/Durham, NC (RDU)", 4 ,B55,Scheduled,6:50 PM
+6304,Korean Air,"Buffalo, NY (BUF)", 4 ,B44,Scheduled,5:28 PM
+6743,Korean Air,Madrid (MAD), 4,,In Air,7:05 PM
+8012,Korean Air,Monterrey (MTY), 1,,In Air,3:05 PM
+8466,Korean Air,Paris (ORY), 1,,Arrived,2:40 PM
+9348,Korean Air,Amsterdam (AMS), 4,,In Air,4:55 PM
+9358,Korean Air,Amsterdam (AMS), 4,,In Air,8:30 PM
