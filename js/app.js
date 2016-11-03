@@ -4,55 +4,61 @@ var jfkApp = angular.module('jfkApp', []);
 // Define the `LanguageController` controller
 jfkApp.controller('LanguageController', function LanguageController($scope) {
     $scope.selectedLang = "english";
-    
-    $scope.selectLang = function(newLang) {
+
+    $scope.selectLang = function (newLang) {
         $scope.selectedLang = newLang;
     };
-    
-    
+
+
 });
 
 
 // Define the `FlightController` controller
-jfkApp.controller('FlightController', function FlightController($scope) {
-    $scope.flights = [
-        {   "flightNumber": 322, 
-            "airline": "Delta",
-            "location": "Atlanta, GA", 
-            "terminal": "B", 
-            "gate": 22, 
-            "status": "On-Time",
-            "scheduled": "4:25 PM",
-        },
-        {   "flightNumber": 5733, 
-            "airline": "American Airlines",
-            "location": "Boston, MA", 
-            "terminal": "G", 
-            "gate": 3, 
-            "status": "On-Time",
-            "scheduled": "7:25 PM",
-        },
-    ];
-    
+jfkApp.controller('FlightController', function FlightController($scope, $http) {
+
+    $http.get('./assets/arrivals.json')
+        .then(function (res) {
+            $scope.flights = res.data;
+        });
+
     $scope.flightType = "arrivals";
-    
-    $scope.airlines = ["Delta", "American Airlines", "Jet Blue"];
-    
-    $scope.filterFlight = function(flight) {
-        if ($scope.airline == null && $scope.flighNumber == null) {
+
+    $scope.airline = '';
+    $scope.flightNumber = '';
+
+    $scope.airlines = ["Delta Air Line", "Air France", "American Airlines", "Korean Air"];
+
+    $scope.filterFlight = function (flight) {
+        if ($scope.airline == '' && $scope.flightNumber == '') {
             return true;
         }
-        if ($scope.airline == null) {
-            return flight.flightNumber == $scope.flightNumber;
+        if ($scope.airline == '') {
+            return flight.flightNumber.toString().indexOf($scope.flightNumber) != -1;
         }
-        if ($scope.flightNumber == null) {
+        if ($scope.flightNumber == '') {
             return flight.airline == $scope.airline;
-        }
-        else {
-            return flight.flightNumber == $scope.flightNumber && flight.airline == $scope.airline;
+        } else {
+            return flight.flightNumber.toString().indexOf($scope.flightNumber) != -1 && flight.airline == $scope.airline;
         }
     }
-    
-    
-    
+
+    $scope.updateData = function () {
+        if ($scope.flightType == "arrivals") {
+            
+            $http.get('./assets/arrivals.json')
+                .then(function (res) {
+                    $scope.flights = res.data;
+                });
+        }
+        if ($scope.flightType == "departures") {
+            
+            $http.get('./assets/departures.json')
+                .then(function (res) {
+                    $scope.flights = res.data;
+                });
+        }
+    };
+
+
+
 });
