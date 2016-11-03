@@ -1,0 +1,1190 @@
+[
+  {
+    "flightNumber": 1034,
+    "airline": "American Airlines",
+    "location": "Phoenix, AZ (PHX)",
+    "terminal": 8,
+    "gate": 1,
+    "status": "In Air",
+    "scheduled": "1:30PM"
+  },
+  {
+    "flightNumber": 2382,
+    "airline": "American Airlines",
+    "location": "Miami, FL (MIA)",
+    "terminal": 8,
+    "gate": 43,
+    "status": "In Air",
+    "scheduled": "1:45PM"
+  },
+  {
+    "flightNumber": 4192,
+    "airline": "American Airlines",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 8,
+    "gate": "31C",
+    "status": "In Air",
+    "scheduled": "2:44PM"
+  },
+  {
+    "flightNumber": 1223,
+    "airline": "American Airlines",
+    "location": "Dallas-Fort Worth, TX (DFW)",
+    "terminal": 8,
+    "gate": 39,
+    "status": "In Air",
+    "scheduled": "2:55PM"
+  },
+  {
+    "flightNumber": 3437,
+    "airline": "American Airlines",
+    "location": "Indianapolis, IN (IND)",
+    "terminal": 8,
+    "gate": "31A",
+    "status": "In Air",
+    "scheduled": "2:55PM"
+  },
+  {
+    "flightNumber": 2183,
+    "airline": "American Airlines",
+    "location": "Washington, DC (DCA)",
+    "terminal": 8,
+    "gate": 5,
+    "status": "In Air",
+    "scheduled": "2:55PM"
+  },
+  {
+    "flightNumber": 4196,
+    "airline": "American Airlines",
+    "location": "Montreal (YUL)",
+    "terminal": 8,
+    "gate": "32G",
+    "status": "In Air",
+    "scheduled": "2:55PM"
+  },
+  {
+    "flightNumber": 279,
+    "airline": "American Airlines",
+    "location": "Orlando, FL (MCO)",
+    "terminal": 8,
+    "gate": 38,
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 9070,
+    "airline": "American Airlines",
+    "location": "Abu Dhabi (AUH)",
+    "terminal": 4,
+    "gate": "A7",
+    "status": "Scheduled",
+    "scheduled": "3:15PM"
+  },
+  {
+    "flightNumber": 3580,
+    "airline": "American Airlines",
+    "location": "Nashville, TN (BNA)",
+    "terminal": 8,
+    "gate": "32H",
+    "status": "Departed",
+    "scheduled": "3:20PM"
+  },
+  {
+    "flightNumber": 117,
+    "airline": "American Airlines",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 8,
+    "gate": 36,
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 199,
+    "airline": "American Airlines",
+    "location": "Boston, MA (BOS)",
+    "terminal": 8,
+    "gate": 44,
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 3307,
+    "airline": "American Airlines",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 8,
+    "gate": "31D",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 3206,
+    "airline": "American Airlines",
+    "location": "Cincinnati, OH (CVG)",
+    "terminal": 8,
+    "gate": "32G",
+    "status": "Cancelled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 3711,
+    "airline": "American Airlines",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 8,
+    "gate": "32I",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 4195,
+    "airline": "American Airlines",
+    "location": "Toronto (YYZ)",
+    "terminal": 8,
+    "gate": "32F",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 65,
+    "airline": "American Airlines",
+    "location": "Miami, FL (MIA)",
+    "terminal": 8,
+    "gate": 41,
+    "status": "Scheduled",
+    "scheduled": "3:40PM"
+  },
+  {
+    "flightNumber": 3443,
+    "airline": "American Airlines",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 8,
+    "gate": "31B",
+    "status": "Scheduled",
+    "scheduled": "3:40PM"
+  },
+  {
+    "flightNumber": 3464,
+    "airline": "American Airlines",
+    "location": "Baltimore, MD (BWI)",
+    "terminal": 8,
+    "gate": "32G",
+    "status": "Scheduled",
+    "scheduled": "3:55PM"
+  },
+  {
+    "flightNumber": 1434,
+    "airline": "American Airlines",
+    "location": "Cancun (CUN)",
+    "terminal": 8,
+    "gate": 40,
+    "status": "Scheduled",
+    "scheduled": "4:10PM"
+  },
+  {
+    "flightNumber": 67,
+    "airline": "American Airlines",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 8,
+    "gate": 39,
+    "status": "Scheduled",
+    "scheduled": "4:30PM"
+  },
+  {
+    "flightNumber": 3198,
+    "airline": "American Airlines",
+    "location": "Norfolk, VA (ORF)",
+    "terminal": 8,
+    "gate": "31C",
+    "status": "Scheduled",
+    "scheduled": "4:30PM"
+  },
+  {
+    "flightNumber": 1488,
+    "airline": "American Airlines",
+    "location": "Phoenix, AZ (PHX)",
+    "terminal": 8,
+    "gate": 34,
+    "status": "Scheduled",
+    "scheduled": "4:50PM"
+  },
+  {
+    "flightNumber": 133,
+    "airline": "American Airlines",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 8,
+    "gate": 42,
+    "status": "Scheduled",
+    "scheduled": "5:00PM"
+  },
+  {
+    "flightNumber": 101,
+    "airline": "American Airlines",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 8,
+    "gate": 43,
+    "status": "Scheduled",
+    "scheduled": "5:00PM"
+  },
+  {
+    "flightNumber": 990,
+    "airline": "American Airlines",
+    "location": "Tucson, AZ (TUS)",
+    "terminal": 8,
+    "gate": 6,
+    "status": "Scheduled",
+    "scheduled": "5:00PM"
+  },
+  {
+    "flightNumber": 4639,
+    "airline": "American Airlines",
+    "location": "Washington, DC (DCA)",
+    "terminal": 8,
+    "gate": "31A",
+    "status": "Scheduled",
+    "scheduled": "5:00PM"
+  },
+  {
+    "flightNumber": 235,
+    "airline": "American Airlines",
+    "location": "Miami, FL (MIA)",
+    "terminal": 8,
+    "gate": 46,
+    "status": "Scheduled",
+    "scheduled": "5:10PM"
+  },
+  {
+    "flightNumber": 4740,
+    "airline": "American Airlines",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 8,
+    "gate": "31B",
+    "status": "Scheduled",
+    "scheduled": "5:15PM"
+  },
+  {
+    "flightNumber": 211,
+    "airline": "American Airlines",
+    "location": "Las Vegas, NV (LAS)",
+    "terminal": 8,
+    "gate": 36,
+    "status": "Scheduled",
+    "scheduled": "5:20PM"
+  },
+  {
+    "flightNumber": 44,
+    "airline": "American Airlines",
+    "location": "Paris (CDG)",
+    "terminal": 8,
+    "gate": 14,
+    "status": "Scheduled",
+    "scheduled": "5:25PM"
+  },
+  {
+    "flightNumber": 1416,
+    "airline": "American Airlines",
+    "location": "St George (BDA)",
+    "terminal": 8,
+    "gate": 1,
+    "status": "Scheduled",
+    "scheduled": "5:25PM"
+  },
+  {
+    "flightNumber": 95,
+    "airline": "American Airlines",
+    "location": "San Diego, CA (SAN)",
+    "terminal": 8,
+    "gate": 33,
+    "status": "Scheduled",
+    "scheduled": "5:30PM"
+  },
+  {
+    "flightNumber": 2675,
+    "airline": "American Airlines",
+    "location": "Austin, TX (AUS)",
+    "terminal": 8,
+    "gate": 40,
+    "status": "Scheduled",
+    "scheduled": "5:30PM"
+  },
+  {
+    "flightNumber": 66,
+    "airline": "American Airlines",
+    "location": "Barcelona (BCN)",
+    "terminal": 8,
+    "gate": 8,
+    "status": "Scheduled",
+    "scheduled": "5:45PM"
+  },
+  {
+    "flightNumber": 8117,
+    "airline": "American Airlines",
+    "location": "Calgary (YYC)",
+    "terminal": 4,
+    "gate": "B23",
+    "status": "Scheduled",
+    "scheduled": "5:55PM"
+  },
+  {
+    "flightNumber": 83,
+    "airline": "American Airlines",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 8,
+    "gate": 2,
+    "status": "Scheduled",
+    "scheduled": "6:00PM"
+  },
+  {
+    "flightNumber": 198,
+    "airline": "American Airlines",
+    "location": "Milano (MXP)",
+    "terminal": 8,
+    "gate": 37,
+    "status": "Scheduled",
+    "scheduled": "6:05PM"
+  },
+  {
+    "flightNumber": 64,
+    "airline": "American Airlines",
+    "location": "Zurich (ZRH)",
+    "terminal": 8,
+    "gate": 12,
+    "status": "Scheduled",
+    "scheduled": "6:15PM"
+  },
+  {
+    "flightNumber": 45,
+    "airline": "American Airlines",
+    "location": "Seattle, WA (SEA)",
+    "terminal": 8,
+    "gate": 43,
+    "status": "Scheduled",
+    "scheduled": "6:30PM"
+  },
+  {
+    "flightNumber": 177,
+    "airline": "American Airlines",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 8,
+    "gate": 35,
+    "status": "Scheduled",
+    "scheduled": "6:30PM"
+  },
+  {
+    "flightNumber": 94,
+    "airline": "American Airlines",
+    "location": "Madrid (MAD)",
+    "terminal": 8,
+    "gate": 45,
+    "status": "Scheduled",
+    "scheduled": "6:55PM"
+  },
+  {
+    "flightNumber": 2540,
+    "airline": "American Airlines",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 8,
+    "gate": 44,
+    "status": "Scheduled",
+    "scheduled": "6:55PM"
+  },
+  {
+    "flightNumber": 21,
+    "airline": "American Airlines",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 8,
+    "gate": 36,
+    "status": "Scheduled",
+    "scheduled": "7:00PM"
+  },
+  {
+    "flightNumber": 1893,
+    "airline": "American Airlines",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 8,
+    "gate": 1,
+    "status": "Scheduled",
+    "scheduled": "7:00PM"
+  },
+  {
+    "flightNumber": 130,
+    "airline": "American Airlines",
+    "location": "Birmingham (BHX)",
+    "terminal": 8,
+    "gate": 34,
+    "status": "Scheduled",
+    "scheduled": "7:10PM"
+  },
+  {
+    "flightNumber": 100,
+    "airline": "American Airlines",
+    "location": "London (LHR)",
+    "terminal": 8,
+    "gate": 16,
+    "status": "Scheduled",
+    "scheduled": "7:25PM"
+  },
+  {
+    "flightNumber": 85,
+    "airline": "American Airlines",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 8,
+    "gate": 38,
+    "status": "Scheduled",
+    "scheduled": "7:30PM"
+  },
+  {
+    "flightNumber": 210,
+    "airline": "American Airlines",
+    "location": "Manchester (MAN)",
+    "terminal": 8,
+    "gate": 7,
+    "status": "Scheduled",
+    "scheduled": "7:35PM"
+  },
+  {
+    "flightNumber": 2836,
+    "airline": "Air France",
+    "location": "Norfolk, VA (ORF)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Departed",
+    "scheduled": "2:57PM"
+  },
+  {
+    "flightNumber": 2278,
+    "airline": "Air France",
+    "location": "New Orleans, LA (MSY)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "In Air",
+    "scheduled": "2:57PM"
+  },
+  {
+    "flightNumber": 9511,
+    "airline": "Air France",
+    "location": "Philadelphia, PA (PHL)",
+    "terminal": 4,
+    "gate": "B48",
+    "status": "In Air",
+    "scheduled": "2:58PM"
+  },
+  {
+    "flightNumber": 5896,
+    "airline": "Air France",
+    "location": "Miami, FL (MIA)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 2360,
+    "airline": "Air France",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 9428,
+    "airline": "Air France",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 2,
+    "gate": "C70",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 8778,
+    "airline": "Air France",
+    "location": "Baltimore, MD (BWI)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 7094,
+    "airline": "Air France",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 2837,
+    "airline": "Air France",
+    "location": "Boston, MA (BOS)",
+    "terminal": 2,
+    "gate": "C62",
+    "status": "In Air",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 5758,
+    "airline": "Air France",
+    "location": "Toronto (YYZ)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Departed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 8826,
+    "airline": "Air France",
+    "location": "Syracuse, NY (SYR)",
+    "terminal": 2,
+    "gate": "C65",
+    "status": "Delayed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 2758,
+    "airline": "Air France",
+    "location": "San Juan (SJU)",
+    "terminal": 4,
+    "gate": "B35",
+    "status": "Departed",
+    "scheduled": "3:05PM"
+  },
+  {
+    "flightNumber": 9124,
+    "airline": "Air France",
+    "location": "Washington, DC (DCA)",
+    "terminal": 2,
+    "gate": "C68",
+    "status": "Departed",
+    "scheduled": "3:12PM"
+  },
+  {
+    "flightNumber": 2150,
+    "airline": "Air France",
+    "location": "Tampa, FL (TPA)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "Departed",
+    "scheduled": "3:29PM"
+  },
+  {
+    "flightNumber": 5684,
+    "airline": "Air France",
+    "location": "Las Vegas, NV (LAS)",
+    "terminal": 4,
+    "gate": "B28",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 2532,
+    "airline": "Air France",
+    "location": "Orlando, FL (MCO)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "Departed",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 5842,
+    "airline": "Air France",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 3714,
+    "airline": "Air France",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 2,
+    "gate": "C67",
+    "status": "Scheduled",
+    "scheduled": "3:40PM"
+  },
+  {
+    "flightNumber": 3506,
+    "airline": "Air France",
+    "location": "Fort Lauderdale, FL (FLL)",
+    "terminal": 2,
+    "gate": "C64",
+    "status": "Scheduled",
+    "scheduled": "3:45PM"
+  },
+  {
+    "flightNumber": 3061,
+    "airline": "Air France",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 4,
+    "gate": "B39",
+    "status": "Scheduled",
+    "scheduled": "3:50PM"
+  },
+  {
+    "flightNumber": 2092,
+    "airline": "Air France",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 4,
+    "gate": "B34",
+    "status": "Scheduled",
+    "scheduled": "3:55PM"
+  },
+  {
+    "flightNumber": 2326,
+    "airline": "Air France",
+    "location": "Salt Lake City, UT (SLC)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "Scheduled",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 2420,
+    "airline": "Air France",
+    "location": "Minneapolis, MN (MSP)",
+    "terminal": 2,
+    "gate": "C61",
+    "status": "Scheduled",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 2464,
+    "airline": "Air France",
+    "location": "Seattle, WA (SEA)",
+    "terminal": 4,
+    "gate": "B24",
+    "status": "Scheduled",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 9239,
+    "airline": "Air France",
+    "location": "Montreal (YUL)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "Scheduled",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 2523,
+    "airline": "Air France",
+    "location": "Detroit, MI (DTW)",
+    "terminal": 2,
+    "gate": "C62",
+    "status": "Scheduled",
+    "scheduled": "4:30PM"
+  },
+  {
+    "flightNumber": 3524,
+    "airline": "Air France",
+    "location": "Chicago, IL (ORD)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "4:30PM"
+  },
+  {
+    "flightNumber": 3522,
+    "airline": "Air France",
+    "location": "Rochester, NY (ROC)",
+    "terminal": 2,
+    "gate": "C60",
+    "status": "Scheduled",
+    "scheduled": "4:40PM"
+  },
+  {
+    "flightNumber": 2656,
+    "airline": "Air France",
+    "location": "Indianapolis, IN (IND)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Scheduled",
+    "scheduled": "4:55PM"
+  },
+  {
+    "flightNumber": 8463,
+    "airline": "Air France",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 4,
+    "gate": "B35",
+    "status": "Scheduled",
+    "scheduled": "5:00PM"
+  },
+  {
+    "flightNumber": 6860,
+    "airline": "Air France",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 4,
+    "gate": "B38",
+    "status": "Scheduled",
+    "scheduled": "5:05PM"
+  },
+  {
+    "flightNumber": 5949,
+    "airline": "Air France",
+    "location": "Boston, MA (BOS)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Scheduled",
+    "scheduled": "5:20PM"
+  },
+  {
+    "flightNumber": 7303,
+    "airline": "Korean Air",
+    "location": "Atlanta, GA (ATL)",
+    "terminal": 4,
+    "gate": "B22",
+    "status": "In Air",
+    "scheduled": "1:35PM"
+  },
+  {
+    "flightNumber": 7311,
+    "airline": "Korean Air",
+    "location": "Buffalo, NY (BUF)",
+    "terminal": 2,
+    "gate": "C60",
+    "status": "Arrived",
+    "scheduled": "1:38PM"
+  },
+  {
+    "flightNumber": 7317,
+    "airline": "Korean Air",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Arrived",
+    "scheduled": "1:40PM"
+  },
+  {
+    "flightNumber": 7369,
+    "airline": "Korean Air",
+    "location": "Savannah, GA (SAV)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "In Air",
+    "scheduled": "1:41PM"
+  },
+  {
+    "flightNumber": 7315,
+    "airline": "Korean Air",
+    "location": "Charleston, SC (CHS)",
+    "terminal": 2,
+    "gate": "C66",
+    "status": "In Air",
+    "scheduled": "1:50PM"
+  },
+  {
+    "flightNumber": 7499,
+    "airline": "Korean Air",
+    "location": "Washington, DC (IAD)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Arrived",
+    "scheduled": "2:00PM"
+  },
+  {
+    "flightNumber": 7363,
+    "airline": "Korean Air",
+    "location": "Richmond, VA (RIC)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "In Air",
+    "scheduled": "2:40PM"
+  },
+  {
+    "flightNumber": 7351,
+    "airline": "Korean Air",
+    "location": "Norfolk, VA (ORF)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Departed",
+    "scheduled": "2:57PM"
+  },
+  {
+    "flightNumber": 7345,
+    "airline": "Korean Air",
+    "location": "New Orleans, LA (MSY)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "In Air",
+    "scheduled": "2:57PM"
+  },
+  {
+    "flightNumber": 7355,
+    "airline": "Korean Air",
+    "location": "Philadelphia, PA (PHL)",
+    "terminal": 4,
+    "gate": "B48",
+    "status": "In Air",
+    "scheduled": "2:58PM"
+  },
+  {
+    "flightNumber": 7341,
+    "airline": "Korean Air",
+    "location": "Miami, FL (MIA)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 7357,
+    "airline": "Korean Air",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 7319,
+    "airline": "Korean Air",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 2,
+    "gate": "C70",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 7313,
+    "airline": "Korean Air",
+    "location": "Baltimore, MD (BWI)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 7307,
+    "airline": "Korean Air",
+    "location": "Boston, MA (BOS)",
+    "terminal": 2,
+    "gate": "C62",
+    "status": "In Air",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 7373,
+    "airline": "Korean Air",
+    "location": "Syracuse, NY (SYR)",
+    "terminal": 2,
+    "gate": "C65",
+    "status": "Delayed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 7323,
+    "airline": "Korean Air",
+    "location": "Washington, DC (DCA)",
+    "terminal": 2,
+    "gate": "C68",
+    "status": "Departed",
+    "scheduled": "3:12PM"
+  },
+  {
+    "flightNumber": 7198,
+    "airline": "Korean Air",
+    "location": "Atlanta, GA (ATL)",
+    "terminal": 4,
+    "gate": "B32",
+    "status": "Departed",
+    "scheduled": "3:25PM"
+  },
+  {
+    "flightNumber": 7375,
+    "airline": "Korean Air",
+    "location": "Tampa, FL (TPA)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "Departed",
+    "scheduled": "3:29PM"
+  },
+  {
+    "flightNumber": 7337,
+    "airline": "Korean Air",
+    "location": "Las Vegas, NV (LAS)",
+    "terminal": 4,
+    "gate": "B28",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 7339,
+    "airline": "Korean Air",
+    "location": "Orlando, FL (MCO)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "Departed",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 7335,
+    "airline": "Korean Air",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 7359,
+    "airline": "Korean Air",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 2,
+    "gate": "C67",
+    "status": "Scheduled",
+    "scheduled": "3:40PM"
+  },
+  {
+    "flightNumber": 7329,
+    "airline": "Korean Air",
+    "location": "Fort Lauderdale, FL (FLL)",
+    "terminal": 2,
+    "gate": "C64",
+    "status": "Scheduled",
+    "scheduled": "3:45PM"
+  },
+  {
+    "flightNumber": 7343,
+    "airline": "Korean Air",
+    "location": "Minneapolis, MN (MSP)",
+    "terminal": 2,
+    "gate": "C61",
+    "status": "Scheduled",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 6304,
+    "airline": "Delta Air Lines",
+    "location": "Buffalo, NY (BUF)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "Scheduled",
+    "scheduled": "5:28PM"
+  },
+  {
+    "flightNumber": 4009,
+    "airline": "Delta Air Lines",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Scheduled",
+    "scheduled": "8:29PM"
+  },
+  {
+    "flightNumber": 4011,
+    "airline": "Delta Air Lines",
+    "location": "Buffalo, NY (BUF)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Scheduled",
+    "scheduled": "5:40PM"
+  },
+  {
+    "flightNumber": 4013,
+    "airline": "Delta Air Lines",
+    "location": "Boston, MA (BOS)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Scheduled",
+    "scheduled": "5:20PM"
+  },
+  {
+    "flightNumber": 4014,
+    "airline": "Delta Air Lines",
+    "location": "Washington, DC (IAD)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Scheduled",
+    "scheduled": "6:15PM"
+  },
+  {
+    "flightNumber": 4015,
+    "airline": "Delta Air Lines",
+    "location": "Rochester, NY (ROC)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "Scheduled",
+    "scheduled": "9:00PM"
+  },
+  {
+    "flightNumber": 4017,
+    "airline": "Delta Air Lines",
+    "location": "Detroit, MI (DTW)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Scheduled",
+    "scheduled": "6:20PM"
+  },
+  {
+    "flightNumber": 4019,
+    "airline": "Delta Air Lines",
+    "location": "Chicago, IL (ORD)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "4:30PM"
+  },
+  {
+    "flightNumber": 4020,
+    "airline": "Delta Air Lines",
+    "location": "Norfolk, VA (ORF)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Departed",
+    "scheduled": "2:57PM"
+  },
+  {
+    "flightNumber": 4021,
+    "airline": "Delta Air Lines",
+    "location": "Baltimore, MD (BWI)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "Scheduled",
+    "scheduled": "9:05PM"
+  },
+  {
+    "flightNumber": 4024,
+    "airline": "Delta Air Lines",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Departed",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 4026,
+    "airline": "Delta Air Lines",
+    "location": "Nashville, TN (BNA)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Scheduled",
+    "scheduled": "6:30PM"
+  },
+  {
+    "flightNumber": 4029,
+    "airline": "Delta Air Lines",
+    "location": "Savannah, GA (SAV)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "In Air",
+    "scheduled": "1:41PM"
+  },
+  {
+    "flightNumber": 4034,
+    "airline": "Delta Air Lines",
+    "location": "Dallas-Fort Worth, TX (DFW)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "Scheduled",
+    "scheduled": "6:15PM"
+  },
+  {
+    "flightNumber": 4036,
+    "airline": "Delta Air Lines",
+    "location": "Indianapolis, IN (IND)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Scheduled",
+    "scheduled": "4:55PM"
+  },
+  {
+    "flightNumber": 4040,
+    "airline": "Delta Air Lines",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Scheduled",
+    "scheduled": "3:30PM"
+  },
+  {
+    "flightNumber": 4041,
+    "airline": "Delta Air Lines",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Scheduled",
+    "scheduled": "7:40PM"
+  },
+  {
+    "flightNumber": 4047,
+    "airline": "Delta Air Lines",
+    "location": "Richmond, VA (RIC)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Scheduled",
+    "scheduled": "7:45PM"
+  },
+  {
+    "flightNumber": 4048,
+    "airline": "Delta Air Lines",
+    "location": "Tampa, FL (TPA)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "7:29PM"
+  },
+  {
+    "flightNumber": 4057,
+    "airline": "Delta Air Lines",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 2,
+    "gate": "C70",
+    "status": "In Air",
+    "scheduled": "2:59PM"
+  },
+  {
+    "flightNumber": 4070,
+    "airline": "Delta Air Lines",
+    "location": "Toronto (YYZ)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Departed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 4071,
+    "airline": "Delta Air Lines",
+    "location": "New Orleans, LA (MSY)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Scheduled",
+    "scheduled": "7:29PM"
+  },
+  {
+    "flightNumber": 4075,
+    "airline": "Delta Air Lines",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Arrived",
+    "scheduled": "1:40PM"
+  },
+  {
+    "flightNumber": 4078,
+    "airline": "Delta Air Lines",
+    "location": "Syracuse, NY (SYR)",
+    "terminal": 2,
+    "gate": "C65",
+    "status": "Delayed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 4082,
+    "airline": "Delta Air Lines",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 2,
+    "gate": "C60",
+    "status": "Scheduled",
+    "scheduled": "7:25PM"
+  },
+  {
+    "flightNumber": 4085,
+    "airline": "Delta Air Lines",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "9:00PM"
+  }
+]

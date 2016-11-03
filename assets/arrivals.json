@@ -1,0 +1,858 @@
+[
+  {
+    "flightNumber": 45,
+    "airline": "Delta Air Line",
+    "location": "Dublin (DUB)",
+    "terminal": 4,
+    "gate": "B24",
+    "status": "Arrived",
+    "scheduled": "1:46PM"
+  },
+  {
+    "flightNumber": 46,
+    "airline": "Delta Air Line",
+    "location": "Fort Lauderdale, FL (FLL)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "In Air",
+    "scheduled": "3:59PM"
+  },
+  {
+    "flightNumber": 47,
+    "airline": "Delta Air Line",
+    "location": "Amsterdam (AMS)",
+    "terminal": 4,
+    "gate": "B36",
+    "status": "Arrived",
+    "scheduled": "1:03PM"
+  },
+  {
+    "flightNumber": 49,
+    "airline": "Delta Air Line",
+    "location": "Amsterdam (AMS)",
+    "terminal": 4,
+    "gate": "B38",
+    "status": "Arrived",
+    "scheduled": "2:18PM"
+  },
+  {
+    "flightNumber": 212,
+    "airline": "Delta Air Line",
+    "location": "Nice (NCE)",
+    "terminal": 4,
+    "gate": "B39",
+    "status": "In Air",
+    "scheduled": "4:46PM"
+  },
+  {
+    "flightNumber": 215,
+    "airline": "Delta Air Line",
+    "location": "Madrid (MAD)",
+    "terminal": 4,
+    "gate": "B28",
+    "status": "Arrived",
+    "scheduled": "1:14PM"
+  },
+  {
+    "flightNumber": 302,
+    "airline": "Delta Air Line",
+    "location": "San Juan (SJU)",
+    "terminal": 2,
+    "gate": "C62",
+    "status": "In Air",
+    "scheduled": "5:20PM"
+  },
+  {
+    "flightNumber": 328,
+    "airline": "Delta Air Line",
+    "location": "St. Maarten (SXM)",
+    "terminal": 4,
+    "gate": "B23",
+    "status": "In Air",
+    "scheduled": "6:20PM"
+  },
+  {
+    "flightNumber": 329,
+    "airline": "Delta Air Line",
+    "location": "Orlando, FL (MCO)",
+    "terminal": 4,
+    "gate": "B35",
+    "status": "Arrived",
+    "scheduled": "2:14PM"
+  },
+  {
+    "flightNumber": 354,
+    "airline": "Delta Air Line",
+    "location": "Santo Domingo (SDQ)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "In Air",
+    "scheduled": "6:10PM"
+  },
+  {
+    "flightNumber": 372,
+    "airline": "Delta Air Line",
+    "location": "Nassau (NAS)",
+    "terminal": 2,
+    "gate": "C68",
+    "status": "In Air",
+    "scheduled": "3:56PM"
+  },
+  {
+    "flightNumber": 382,
+    "airline": "Delta Air Line",
+    "location": "Santiago (STI)",
+    "terminal": 4,
+    "gate": "B34",
+    "status": "In Air",
+    "scheduled": "5:14PM"
+  },
+  {
+    "flightNumber": 402,
+    "airline": "Delta Air Line",
+    "location": "Charleston, SC (CHS)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "Scheduled",
+    "scheduled": "7:00PM"
+  },
+  {
+    "flightNumber": 404,
+    "airline": "Delta Air Line",
+    "location": "Tampa, FL (TPA)",
+    "terminal": 2,
+    "gate": "C67",
+    "status": "In Air",
+    "scheduled": "4:12PM"
+  },
+  {
+    "flightNumber": 405,
+    "airline": "Delta Air Line",
+    "location": "Paris (CDG)",
+    "terminal": 4,
+    "gate": "B41",
+    "status": "Arrived",
+    "scheduled": "2:03PM"
+  },
+  {
+    "flightNumber": 406,
+    "airline": "Delta Air Line",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 4,
+    "gate": "B36",
+    "status": "Scheduled",
+    "scheduled": "9:22PM"
+  },
+  {
+    "flightNumber": 407,
+    "airline": "Delta Air Line",
+    "location": "Miami, FL (MIA)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "In Air",
+    "scheduled": "4:31PM"
+  },
+  {
+    "flightNumber": 408,
+    "airline": "Delta Air Line",
+    "location": "Zurich (ZRH)",
+    "terminal": 4,
+    "gate": "B32",
+    "status": "In Air",
+    "scheduled": "4:40PM"
+  },
+  {
+    "flightNumber": 409,
+    "airline": "Delta Air Line",
+    "location": "Orlando, FL (MCO)",
+    "terminal": 2,
+    "gate": "C70",
+    "status": "In Air",
+    "scheduled": "5:13PM"
+  },
+  {
+    "flightNumber": 410,
+    "airline": "Delta Air Line",
+    "location": "Edinburgh (EDI)",
+    "terminal": 4,
+    "gate": "B39",
+    "status": "Arrived",
+    "scheduled": "1:25PM"
+  },
+  {
+    "flightNumber": 411,
+    "airline": "Delta Air Line",
+    "location": "Seattle, WA (SEA)",
+    "terminal": 4,
+    "gate": "B35",
+    "status": "In Air",
+    "scheduled": "4:10PM"
+  },
+  {
+    "flightNumber": 413,
+    "airline": "Delta Air Line",
+    "location": "Minneapolis, MN (MSP)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "Arrived",
+    "scheduled": "2:39PM"
+  },
+  {
+    "flightNumber": 418,
+    "airline": "Delta Air Line",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 2,
+    "gate": "C64",
+    "status": "In Air",
+    "scheduled": "4:55PM"
+  },
+  {
+    "flightNumber": 419,
+    "airline": "Air France",
+    "location": "Milano (MXP)",
+    "terminal": 4,
+    "gate": "B37",
+    "status": "Arrived",
+    "scheduled": "1:18PM"
+  },
+  {
+    "flightNumber": 420,
+    "airline": "Air France",
+    "location": "Atlanta, GA (ATL)",
+    "terminal": 4,
+    "gate": "B32",
+    "status": "Arrived",
+    "scheduled": "2:36PM"
+  },
+  {
+    "flightNumber": 444,
+    "airline": "Air France",
+    "location": "Salt Lake City, UT (SLC)",
+    "terminal": 4,
+    "gate": "B38",
+    "status": "In Air",
+    "scheduled": "5:35PM"
+  },
+  {
+    "flightNumber": 445,
+    "airline": "Air France",
+    "location": "Rome (FCO)",
+    "terminal": 4,
+    "gate": "B36",
+    "status": "In Air",
+    "scheduled": "4:32PM"
+  },
+  {
+    "flightNumber": 446,
+    "airline": "Air France",
+    "location": "Denver, CO (DEN)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "In Air",
+    "scheduled": "5:56PM"
+  },
+  {
+    "flightNumber": 40,
+    "airline": "Air France",
+    "location": "Atlanta, GA (ATL)",
+    "terminal": 2,
+    "gate": "C69",
+    "status": "Scheduled",
+    "scheduled": "8:16PM"
+  },
+  {
+    "flightNumber": 42,
+    "airline": "Air France",
+    "location": "Venice (VCE)",
+    "terminal": 4,
+    "gate": "B22",
+    "status": "In Air",
+    "scheduled": "4:36PM"
+  },
+  {
+    "flightNumber": 43,
+    "airline": "Air France",
+    "location": "Boston, MA (BOS)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "Scheduled",
+    "scheduled": "6:40PM"
+  },
+  {
+    "flightNumber": 44,
+    "airline": "Air France",
+    "location": "Barcelona (BCN)",
+    "terminal": 4,
+    "gate": "B36",
+    "status": "Arrived",
+    "scheduled": "3:02PM"
+  },
+  {
+    "flightNumber": 45,
+    "airline": "Air France",
+    "location": "Santo Domingo (SDQ)",
+    "terminal": 4,
+    "gate": "B32",
+    "status": "Scheduled",
+    "scheduled": "9:02PM"
+  },
+  {
+    "flightNumber": 46,
+    "airline": "American Airlines",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 4,
+    "gate": "B26",
+    "status": "In Air",
+    "scheduled": "7:58PM"
+  },
+  {
+    "flightNumber": 47,
+    "airline": "American Airlines",
+    "location": "Charlotte Amalie (STT)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "In Air",
+    "scheduled": "5:40PM"
+  },
+  {
+    "flightNumber": 49,
+    "airline": "American Airlines",
+    "location": "Montego Bay (MBJ)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "In Air",
+    "scheduled": "5:59PM"
+  },
+  {
+    "flightNumber": 212,
+    "airline": "American Airlines",
+    "location": "Aruba (AUA)",
+    "terminal": 4,
+    "gate": "B28",
+    "status": "In Air",
+    "scheduled": "7:14PM"
+  },
+  {
+    "flightNumber": 215,
+    "airline": "American Airlines",
+    "location": "Boston, MA (BOS)",
+    "terminal": 2,
+    "gate": "C68",
+    "status": "Arrived",
+    "scheduled": "2:30PM"
+  },
+  {
+    "flightNumber": 302,
+    "airline": "American Airlines",
+    "location": "Punta Cana (PUJ)",
+    "terminal": 4,
+    "gate": "B22",
+    "status": "In Air",
+    "scheduled": "5:34PM"
+  },
+  {
+    "flightNumber": 328,
+    "airline": "American Airlines",
+    "location": "Mexico City (MEX)",
+    "terminal": 4,
+    "gate": "B37",
+    "status": "Scheduled",
+    "scheduled": "8:53PM"
+  },
+ 
+  {
+    "flightNumber": 1140,
+    "airline": "Korean Air",
+    "location": "Phoenix, AZ (PHX)",
+    "terminal": 2,
+    "gate": "C63",
+    "status": "Departed",
+    "scheduled": "7:54PM"
+  },
+  {
+    "flightNumber": 1381,
+    "airline": "Korean Air",
+    "location": "Washington, DC (DCA)",
+    "terminal": 2,
+    "gate": "C61",
+    "status": "Scheduled",
+    "scheduled": "6:45PM"
+  },
+  {
+    "flightNumber": 40,
+    "airline": "Korean Air",
+    "location": "Atlanta, GA (ATL)",
+    "terminal": 2,
+    "gate": "C66",
+    "status": "In Air",
+    "scheduled": "4:29PM"
+  },
+  {
+    "flightNumber": 42,
+    "airline": "Korean Air",
+    "location": "Salt Lake City, UT (SLC)",
+    "terminal": 4,
+    "gate": "B24",
+    "status": "Landed",
+    "scheduled": "3:04PM"
+  },
+  {
+    "flightNumber": 43,
+    "airline": "Korean Air",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 4,
+    "gate": "B38",
+    "status": "In Air",
+    "scheduled": "3:55PM"
+  },
+  {
+    "flightNumber": 44,
+    "airline": "Korean Air",
+    "location": "St George (BDA)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "Arrived",
+    "scheduled": "2:18PM"
+  },
+  {
+    "flightNumber": 45,
+    "airline": "Korean Air",
+    "location": "Las Vegas, NV (LAS)",
+    "terminal": 4,
+    "gate": "B20",
+    "status": "Arrived",
+    "scheduled": "2:13PM"
+  },
+  {
+    "flightNumber": 46,
+    "airline": "Korean Air",
+    "location": "Denver, CO (DEN)",
+    "terminal": 2,
+    "gate": "C64",
+    "status": "Arrived",
+    "scheduled": "1:30PM"
+  },
+  {
+    "flightNumber": 47,
+    "airline": "Korean Air",
+    "location": "New Orleans, LA (MSY)",
+    "terminal": 2,
+    "gate": "C61",
+    "status": "In Air",
+    "scheduled": "3:15PM"
+  },
+  {
+    "flightNumber": 49,
+    "airline": "Korean Air",
+    "location": "San Francisco, CA (SFO)",
+    "terminal": 2,
+    "gate": "C66",
+    "status": "In Air",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 212,
+    "airline": "Korean Air",
+    "location": "Phoenix, AZ (PHX)",
+    "terminal": 4,
+    "gate": "B22",
+    "status": "Arrived",
+    "scheduled": "2:31PM"
+  },
+  {
+    "flightNumber": 215,
+    "airline": "Korean Air",
+    "location": "San Antonio, TX (SAT)",
+    "terminal": 2,
+    "gate": "C66",
+    "status": "Arrived",
+    "scheduled": "1:00PM"
+  },
+  {
+    "flightNumber": 302,
+    "airline": "Korean Air",
+    "location": "Portland, OR (PDX)",
+    "terminal": 4,
+    "gate": "B28",
+    "status": "Arrived",
+    "scheduled": "2:45PM"
+  },
+  {
+    "flightNumber": 328,
+    "airline": "Korean Air",
+    "location": "San Diego, CA (SAN)",
+    "terminal": 2,
+    "gate": "C65",
+    "status": "In Air",
+    "scheduled": "3:31PM"
+  },
+  {
+    "flightNumber": 329,
+    "airline": "Korean Air",
+    "location": "Minneapolis, MN (MSP)",
+    "terminal": 2,
+    "gate": "C66",
+    "status": "Scheduled",
+    "scheduled": "6:45PM"
+  },
+  {
+    "flightNumber": 2498,
+    "airline": "Korean Air",
+    "location": "Charleston, SC (CHS)",
+    "terminal": 2,
+    "gate": "C62",
+    "status": "Arrived",
+    "scheduled": "1:52PM"
+  },
+  {
+    "flightNumber": 2554,
+    "airline": "Korean Air",
+    "location": "Seattle, WA (SEA)",
+    "terminal": 4,
+    "gate": "B33",
+    "status": "Scheduled",
+    "scheduled": "9:00PM"
+  },
+  {
+    "flightNumber": 2635,
+    "airline": "Korean Air",
+    "location": "Los Angeles, CA (LAX)",
+    "terminal": 4,
+    "gate": "B34",
+    "status": "Arrived",
+    "scheduled": "2:52PM"
+  },
+  {
+    "flightNumber": 3432,
+    "airline": "Korean Air",
+    "location": "Philadelphia, PA (PHL)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Delayed",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 3509,
+    "airline": "Korean Air",
+    "location": "Detroit, MI (DTW)",
+    "terminal": 4,
+    "gate": "B48",
+    "status": "Scheduled",
+    "scheduled": "5:29PM"
+  },
+  {
+    "flightNumber": 3622,
+    "airline": "Korean Air",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Scheduled",
+    "scheduled": "5:50PM"
+  },
+  {
+    "flightNumber": 3623,
+    "airline": "Korean Air",
+    "location": "Savannah, GA (SAV)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Scheduled",
+    "scheduled": "7:00PM"
+  },
+  {
+    "flightNumber": 3627,
+    "airline": "Korean Air",
+    "location": "Cincinnati, OH (CVG)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Arrived",
+    "scheduled": "1:00PM"
+  },
+  {
+    "flightNumber": 3640,
+    "airline": "Korean Air",
+    "location": "Chicago, IL (ORD)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "Arrived",
+    "scheduled": "1:39PM"
+  },
+  {
+    "flightNumber": 3710,
+    "airline": "Korean Air",
+    "location": "Buffalo, NY (BUF)",
+    "terminal": 2,
+    "gate": "C70",
+    "status": "Scheduled",
+    "scheduled": "8:30PM"
+  },
+  {
+    "flightNumber": 3715,
+    "airline": "Korean Air",
+    "location": "Pittsburgh, PA (PIT)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Scheduled",
+    "scheduled": "6:26PM"
+  },
+  {
+    "flightNumber": 3728,
+    "airline": "Korean Air",
+    "location": "Norfolk, VA (ORF)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Scheduled",
+    "scheduled": "6:45PM"
+  },
+  {
+    "flightNumber": 3771,
+    "airline": "Korean Air",
+    "location": "Montreal (YUL)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Scheduled",
+    "scheduled": "6:40PM"
+  },
+  {
+    "flightNumber": 3781,
+    "airline": "Korean Air",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Arrived",
+    "scheduled": "2:15PM"
+  },
+  {
+    "flightNumber": 3789,
+    "airline": "Korean Air",
+    "location": "Dallas-Fort Worth, TX (DFW)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "Landed",
+    "scheduled": "3:00PM"
+  },
+  {
+    "flightNumber": 3819,
+    "airline": "Korean Air",
+    "location": "Washington, DC (IAD)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Scheduled",
+    "scheduled": "5:30PM"
+  },
+  {
+    "flightNumber": 3829,
+    "airline": "Korean Air",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Arrived",
+    "scheduled": "1:29PM"
+  },
+  {
+    "flightNumber": 3835,
+    "airline": "Korean Air",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "In Air",
+    "scheduled": "3:15PM"
+  },
+  {
+    "flightNumber": 3838,
+    "airline": "Korean Air",
+    "location": "Charlotte, NC (CLT)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "8:08PM"
+  },
+  {
+    "flightNumber": 3845,
+    "airline": "Korean Air",
+    "location": "Montreal (YUL)",
+    "terminal": 2,
+    "gate": "C65",
+    "status": "Arrived",
+    "scheduled": "1:33PM"
+  },
+  {
+    "flightNumber": 3864,
+    "airline": "Korean Air",
+    "location": "Jacksonville, FL (JAX)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Scheduled",
+    "scheduled": "7:55PM"
+  },
+  {
+    "flightNumber": 3902,
+    "airline": "Korean Air",
+    "location": "Cleveland, OH (CLE)",
+    "terminal": 2,
+    "gate": "C61",
+    "status": "Arrived",
+    "scheduled": "1:58PM"
+  },
+  {
+    "flightNumber": 3909,
+    "airline": "Korean Air",
+    "location": "Raleigh/Durham, NC (RDU)",
+    "terminal": 4,
+    "gate": "B44",
+    "status": "Scheduled",
+    "scheduled": "8:15PM"
+  },
+  {
+    "flightNumber": 3942,
+    "airline": "Korean Air",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 4,
+    "gate": "B53",
+    "status": "Arrived",
+    "scheduled": "1:56PM"
+  },
+  {
+    "flightNumber": 3946,
+    "airline": "Korean Air",
+    "location": "Columbus, OH (CMH)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Scheduled",
+    "scheduled": "7:52PM"
+  },
+  {
+    "flightNumber": 3962,
+    "airline": "Korean Air",
+    "location": "Nashville, TN (BNA)",
+    "terminal": 4,
+    "gate": "B46",
+    "status": "Scheduled",
+    "scheduled": "5:29PM"
+  },
+  {
+    "flightNumber": 3979,
+    "airline": "Korean Air",
+    "location": "Savannah, GA (SAV)",
+    "terminal": 4,
+    "gate": "B55",
+    "status": "Arrived",
+    "scheduled": "2:32PM"
+  },
+  {
+    "flightNumber": 3986,
+    "airline": "Korean Air",
+    "location": "Washington, DC (DCA)",
+    "terminal": 2,
+    "gate": "C60",
+    "status": "Arrived",
+    "scheduled": "2:27�PM"
+  },
+  {
+    "flightNumber": 3990,
+    "airline": "American Airlines",
+    "location": "Indianapolis, IN (IND)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "In Air",
+    "scheduled": "4:00PM"
+  },
+  {
+    "flightNumber": 3993,
+    "airline": "American Airlines",
+    "location": "Rochester, NY (ROC)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Scheduled",
+    "scheduled": "8:30PM"
+  },
+  {
+    "flightNumber": 3995,
+    "airline": "American Airlines",
+    "location": "Chicago, IL (ORD)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "In Air",
+    "scheduled": "3:27PM"
+  },
+  {
+    "flightNumber": 4059,
+    "airline": "American Airlines",
+    "location": "Richmond, VA (RIC)",
+    "terminal": 4,
+    "gate": "B51",
+    "status": "Scheduled",
+    "scheduled": "6:11PM"
+  },
+  {
+    "flightNumber": 4073,
+    "airline": "American Airlines",
+    "location": "Syracuse, NY (SYR)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "Scheduled",
+    "scheduled": "8:15PM"
+  },
+  {
+    "flightNumber": 4080,
+    "airline": "American Airlines",
+    "location": "Richmond, VA (RIC)",
+    "terminal": 4,
+    "gate": "B49",
+    "status": "Arrived",
+    "scheduled": "1:11PM"
+  },
+  {
+    "flightNumber": 4083,
+    "airline": "American Airlines",
+    "location": "Baltimore, MD (BWI)",
+    "terminal": 4,
+    "gate": "B42",
+    "status": "Scheduled",
+    "scheduled": "6:23PM"
+  },
+  {
+    "flightNumber": 4096,
+    "airline": "American Airlines",
+    "location": "Cincinnati, OH (CVG)",
+    "terminal": 4,
+    "gate": "B47",
+    "status": "Scheduled",
+    "scheduled": "5:19PM"
+  },
+  {
+    "flightNumber": 4126,
+    "airline": "American Airlines",
+    "location": "Toronto (YYZ)",
+    "terminal": 4,
+    "gate": "B18",
+    "status": "Scheduled",
+    "scheduled": "7:22PM"
+  },
+  {
+    "flightNumber": 4132,
+    "airline": "American Airlines",
+    "location": "Chicago, IL (ORD)",
+    "terminal": 4,
+    "gate": "B45",
+    "status": "Scheduled",
+    "scheduled": "6:25PM"
+  },
+  {
+    "flightNumber": 4154,
+    "airline": "Korean Air",
+    "location": "Boston, MA (BOS)",
+    "terminal": 4,
+    "gate": "B43",
+    "status": "Scheduled",
+    "scheduled": "4:28PM"
+  },
+  {
+    "flightNumber": 4216,
+    "airline": "Korean Air",
+    "location": "Washington, DC (DCA)",
+    "terminal": 4,
+    "gate": "B33",
+    "status": "Arrived",
+    "scheduled": "11:24AM"
+  }
+]
