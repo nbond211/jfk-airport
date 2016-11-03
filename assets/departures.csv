@@ -1,0 +1,152 @@
+flightNumber,airline,location,terminal,gate,status,scheduled
+1034,American Airlines,"Phoenix, AZ (PHX)", 8 , 1,In Air,1:30 PM
+2382,American Airlines,"Miami, FL (MIA)", 8 , 43,In Air,1:45 PM
+4192,American Airlines,"Raleigh/Durham, NC (RDU)", 8 , 31C,In Air,2:44 PM
+1223,American Airlines,"Dallas-Fort Worth, TX (DFW)", 8 , 39,In Air,2:55 PM
+3437,American Airlines,"Indianapolis, IN (IND)", 8 , 31A,In Air,2:55 PM
+2183,American Airlines,"Washington, DC (DCA)", 8 , 5,In Air,2:55 PM
+4196,American Airlines,Montreal (YUL), 8 , 32G,In Air,2:55 PM
+8924,American Airlines,Hong Kong (HKG), 7,,In Air,2:55 PM
+279,American Airlines,"Orlando, FL (MCO)", 8 , 38,Departed,2:59 PM
+9070,American Airlines,Abu Dhabi (AUH), 4 , A7,Scheduled,3:15 PM
+3580,American Airlines,"Nashville, TN (BNA)", 8 , 32H,Departed,3:20 PM
+117,American Airlines,"Los Angeles, CA (LAX)", 8 , 36,Scheduled,3:30 PM
+199,American Airlines,"Boston, MA (BOS)", 8 , 44,Scheduled,3:30 PM
+3307,American Airlines,"Columbus, OH (CMH)", 8 , 31D,Scheduled,3:30 PM
+3206,American Airlines,"Cincinnati, OH (CVG)", 8 , 32G,Cancelled,3:30 PM
+3711,American Airlines,"Cleveland, OH (CLE)", 8 , 32I,Scheduled,3:30 PM
+4195,American Airlines,Toronto (YYZ), 8 , 32F,Scheduled,3:30 PM
+65,American Airlines,"Miami, FL (MIA)", 8 , 41,Scheduled,3:40 PM
+3443,American Airlines,"Pittsburgh, PA (PIT)", 8 , 31B,Scheduled,3:40 PM
+3464,American Airlines,"Baltimore, MD (BWI)", 8 , 32G,Scheduled,3:55 PM
+1434,American Airlines,Cancun (CUN), 8 , 40,Scheduled,4:10 PM
+67,American Airlines,"San Francisco, CA (SFO)", 8 , 39,Scheduled,4:30 PM
+3198,American Airlines,"Norfolk, VA (ORF)", 8 , 31C,Scheduled,4:30 PM
+1488,American Airlines,"Phoenix, AZ (PHX)", 8 , 34,Scheduled,4:50 PM
+133,American Airlines,"Los Angeles, CA (LAX)", 8 , 42,Scheduled,5:00 PM
+101,American Airlines,"Charlotte, NC (CLT)", 8 , 43,Scheduled,5:00 PM
+990,American Airlines,"Tucson, AZ (TUS)", 8 , 6,Scheduled,5:00 PM
+4639,American Airlines,"Washington, DC (DCA)", 8 , 31A,Scheduled,5:00 PM
+235,American Airlines,"Miami, FL (MIA)", 8 , 46,Scheduled,5:10 PM
+4740,American Airlines,"Raleigh/Durham, NC (RDU)", 8 , 31B,Scheduled,5:15 PM
+211,American Airlines,"Las Vegas, NV (LAS)", 8 , 36,Scheduled,5:20 PM
+44,American Airlines,Paris (CDG), 8 , 14,Scheduled,5:25 PM
+1416,American Airlines,St George (BDA), 8 , 1,Scheduled,5:25 PM
+95,American Airlines,"San Diego, CA (SAN)", 8 , 33,Scheduled,5:30 PM
+2675,American Airlines,"Austin, TX (AUS)", 8 , 40,Scheduled,5:30 PM
+66,American Airlines,Barcelona (BCN), 8 , 8,Scheduled,5:45 PM
+8117,American Airlines,Calgary (YYC), 4 , B23,Scheduled,5:55 PM
+83,American Airlines,"Los Angeles, CA (LAX)", 8 , 2,Scheduled,6:00 PM
+7364,American Airlines,"Los Angeles, CA (LAX)", 7,,Scheduled,6:00 PM
+198,American Airlines,Milano (MXP), 8 , 37,Scheduled,6:05 PM
+64,American Airlines,Zurich (ZRH), 8 , 12,Scheduled,6:15 PM
+7809,American Airlines,Sao Paulo (GRU), 8,,Scheduled,6:15 PM
+45,American Airlines,"Seattle, WA (SEA)", 8 , 43,Scheduled,6:30 PM
+177,American Airlines,"San Francisco, CA (SFO)", 8 , 35,Scheduled,6:30 PM
+8644,American Airlines,Madrid (MAD), 7,,Scheduled,6:30 PM
+8986,American Airlines,Helsinki (HEL), 8,,Scheduled,6:45 PM
+94,American Airlines,Madrid (MAD), 8 , 45,Scheduled,6:55 PM
+2540,American Airlines,"Charlotte, NC (CLT)", 8 , 44,Scheduled,6:55 PM
+8068,American Airlines,Dusseldorf (DUS), 8,,Scheduled,6:55 PM
+21,American Airlines,"Los Angeles, CA (LAX)", 8 , 36,Scheduled,7:00 PM
+1893,American Airlines,"Charlotte, NC (CLT)", 8 , 1,Scheduled,7:00 PM
+8075,American Airlines,Berlin (TXL), 8,,Scheduled,7:00 PM
+7718,American Airlines,Santiago (SCL), 8,,Scheduled,7:00 PM
+130,American Airlines,Birmingham (BHX), 8 , 34,Scheduled,7:10 PM
+100,American Airlines,London (LHR), 8 , 16,Scheduled,7:25 PM
+85,American Airlines,"San Francisco, CA (SFO)", 8 , 38,Scheduled,7:30 PM
+6245,American Airlines,Paris (ORY), 7,,Scheduled,7:30 PM
+7786,American Airlines,Sao Paulo (GRU), 8,,Scheduled,7:30 PM
+210,American Airlines,Manchester (MAN), 8 , 7,Scheduled,7:35 PM
+6133,American Airlines,London (LHR), 7,,Scheduled,7:35 PM
+6228,American Airlines,London (LCY), 7,,Scheduled,7:50 PM
+6139,American Airlines,London (LHR), 7,,Scheduled,7:55 PM
+2836,Air France,"Norfolk, VA (ORF)", 4 , B53,Departed,2:57 PM
+2278,Air France,"New Orleans, LA (MSY)", 4 , B44,In Air,2:57 PM
+9511,Air France,"Philadelphia, PA (PHL)", 4 , B48,In Air,2:58 PM
+5896,Air France,"Miami, FL (MIA)", 4 , B20,Departed,2:59 PM
+2360,Air France,"Pittsburgh, PA (PIT)", 4 , B45,Departed,2:59 PM
+9428,Air France,"Columbus, OH (CMH)", 2 , C70,In Air,2:59 PM
+8778,Air France,"Baltimore, MD (BWI)", 4 , B49,In Air,2:59 PM
+7094,Air France,"Charlotte, NC (CLT)", 4 , B47,In Air,2:59 PM
+2837,Air France,"Boston, MA (BOS)", 2 , C62,In Air,3:00 PM
+5758,Air France,Toronto (YYZ), 4 , B43,Departed,3:00 PM
+8826,Air France,"Syracuse, NY (SYR)", 2 , C65,Delayed,3:00 PM
+2758,Air France,San Juan (SJU), 4 , B35,Departed,3:05 PM
+9124,Air France,"Washington, DC (DCA)", 2 , C68,Departed,3:12 PM
+2150,Air France,"Tampa, FL (TPA)", 2 , C69,Departed,3:29 PM
+5684,Air France,"Las Vegas, NV (LAS)", 4 , B28,Scheduled,3:30 PM
+2532,Air France,"Orlando, FL (MCO)", 2 , C63,Departed,3:30 PM
+5842,Air France,"Jacksonville, FL (JAX)", 4 , B46,Scheduled,3:30 PM
+3714,Air France,"Raleigh/Durham, NC (RDU)", 2 , C67,Scheduled,3:40 PM
+3506,Air France,"Fort Lauderdale, FL (FLL)", 2 , C64,Scheduled,3:45 PM
+3061,Air France,"Los Angeles, CA (LAX)", 4 , B39,Scheduled,3:50 PM
+2092,Air France,"San Francisco, CA (SFO)", 4 , B34,Scheduled,3:55 PM
+2326,Air France,"Salt Lake City, UT (SLC)", 4 , B20,Scheduled,4:00 PM
+2420,Air France,"Minneapolis, MN (MSP)", 2 , C61,Scheduled,4:00 PM
+2464,Air France,"Seattle, WA (SEA)", 4 , B24,Scheduled,4:00 PM
+9239,Air France,Montreal (YUL), 4 , B44,Scheduled,4:00 PM
+2523,Air France,"Detroit, MI (DTW)", 2 , C62,Scheduled,4:30 PM
+3524,Air France,"Chicago, IL (ORD)", 4 , B47,Scheduled,4:30 PM
+3522,Air France,"Rochester, NY (ROC)", 2 , C60,Scheduled,4:40 PM
+2656,Air France,"Indianapolis, IN (IND)", 4 , B49,Scheduled,4:55 PM
+8463,Air France,"Los Angeles, CA (LAX)", 4 , B35,Scheduled,5:00 PM
+6860,Air France,"San Francisco, CA (SFO)", 4 , B38,Scheduled,5:05 PM
+5949,Air France,"Boston, MA (BOS)", 4 , B55,Scheduled,5:20 PM
+23,Air France,Paris (CDG), 1,,Scheduled,5:40 PM
+7303,Korean Air,"Atlanta, GA (ATL)", 4 , B22,In Air,1:35 PM
+7311,Korean Air,"Buffalo, NY (BUF)", 2 , C60,Arrived,1:38 PM
+7317,Korean Air,"Cleveland, OH (CLE)", 4 , B51,Arrived,1:40 PM
+7369,Korean Air,"Savannah, GA (SAV)", 4 , B53,In Air,1:41 PM
+7315,Korean Air,"Charleston, SC (CHS)", 2 , C66,In Air,1:50 PM
+7499,Korean Air,"Washington, DC (IAD)", 4 , B55,Arrived,2:00 PM
+7363,Korean Air,"Richmond, VA (RIC)", 4 , B42,In Air,2:40 PM
+7351,Korean Air,"Norfolk, VA (ORF)", 4 , B53,Departed,2:57 PM
+7345,Korean Air,"New Orleans, LA (MSY)", 4 , B44,In Air,2:57 PM
+7355,Korean Air,"Philadelphia, PA (PHL)", 4 , B48,In Air,2:58 PM
+7341,Korean Air,"Miami, FL (MIA)", 4 , B20,Departed,2:59 PM
+7357,Korean Air,"Pittsburgh, PA (PIT)", 4 , B45,Departed,2:59 PM
+7319,Korean Air,"Columbus, OH (CMH)", 2 , C70,In Air,2:59 PM
+7313,Korean Air,"Baltimore, MD (BWI)", 4 , B49,In Air,2:59 PM
+7307,Korean Air,"Boston, MA (BOS)", 2 , C62,In Air,3:00 PM
+7373,Korean Air,"Syracuse, NY (SYR)", 2 , C65,Delayed,3:00 PM
+7323,Korean Air,"Washington, DC (DCA)", 2 , C68,Departed,3:12 PM
+7198,Korean Air,"Atlanta, GA (ATL)", 4 , B32,Departed,3:25 PM
+7375,Korean Air,"Tampa, FL (TPA)", 2 , C69,Departed,3:29 PM
+7337,Korean Air,"Las Vegas, NV (LAS)", 4 , B28,Scheduled,3:30 PM
+7339,Korean Air,"Orlando, FL (MCO)", 2 , C63,Departed,3:30 PM
+7335,Korean Air,"Jacksonville, FL (JAX)", 4 , B46,Scheduled,3:30 PM
+7359,Korean Air,"Raleigh/Durham, NC (RDU)", 2 , C67,Scheduled,3:40 PM
+7329,Korean Air,"Fort Lauderdale, FL (FLL)", 2 , C64,Scheduled,3:45 PM
+7343,Korean Air,"Minneapolis, MN (MSP)", 2 , C61,Scheduled,4:00 PM
+6304,Delta Air Lines,"Buffalo, NY (BUF)", 4 , B44,Scheduled,5:28 PM
+6743,Delta Air Lines,Madrid (MAD), 4,,In Air,7:05 PM
+8012,Delta Air Lines,Monterrey (MTY), 1,,In Air,3:05 PM
+8466,Delta Air Lines,Paris (ORY), 1,,Arrived,2:40 PM
+9348,Delta Air Lines,Amsterdam (AMS), 4,,In Air,4:55 PM
+9358,Delta Air Lines,Amsterdam (AMS), 4,,In Air,8:30 PM
+4009,Delta Air Lines,"Cleveland, OH (CLE)", 4 , B53,Scheduled,8:29 PM
+4011,Delta Air Lines,"Buffalo, NY (BUF)", 4 , B51,Scheduled,5:40 PM
+4013,Delta Air Lines,"Boston, MA (BOS)", 4 , B55,Scheduled,5:20 PM
+4014,Delta Air Lines,"Washington, DC (IAD)", 4 , B49,Scheduled,6:15 PM
+4015,Delta Air Lines,"Rochester, NY (ROC)", 4 , B44,Scheduled,9:00 PM
+4017,Delta Air Lines,"Detroit, MI (DTW)", 4 , B43,Scheduled,6:20 PM
+4019,Delta Air Lines,"Chicago, IL (ORD)", 4 , B47,Scheduled,4:30 PM
+4020,Delta Air Lines,"Norfolk, VA (ORF)", 4 , B53,Departed,2:57 PM
+4021,Delta Air Lines,"Baltimore, MD (BWI)", 4 , B42,Scheduled,9:05 PM
+4024,Delta Air Lines,"Pittsburgh, PA (PIT)", 4 , B45,Departed,2:59 PM
+4026,Delta Air Lines,"Nashville, TN (BNA)", 4 , B55,Scheduled,6:30 PM
+4029,Delta Air Lines,"Savannah, GA (SAV)", 4 , B53,In Air,1:41 PM
+4034,Delta Air Lines,"Dallas-Fort Worth, TX (DFW)", 4 , B42,Scheduled,6:15 PM
+4036,Delta Air Lines,"Indianapolis, IN (IND)", 4 , B49,Scheduled,4:55 PM
+4040,Delta Air Lines,"Jacksonville, FL (JAX)", 4 , B46,Scheduled,3:30 PM
+4041,Delta Air Lines,"Jacksonville, FL (JAX)", 4 , B45,Scheduled,7:40 PM
+4047,Delta Air Lines,"Richmond, VA (RIC)", 4 , B51,Scheduled,7:45 PM
+4048,Delta Air Lines,"Tampa, FL (TPA)", 4 , B47,Scheduled,7:29 PM
+4057,Delta Air Lines,"Columbus, OH (CMH)", 2 , C70,In Air,2:59 PM
+4070,Delta Air Lines,Toronto (YYZ), 4 , B43,Departed,3:00 PM
+4071,Delta Air Lines,"New Orleans, LA (MSY)", 4 , B43,Scheduled,7:29 PM
+4075,Delta Air Lines,"Cleveland, OH (CLE)", 4 , B51,Arrived,1:40 PM
+4078,Delta Air Lines,"Syracuse, NY (SYR)", 2 , C65,Delayed,3:00 PM
+4082,Delta Air Lines,"Columbus, OH (CMH)", 2 , C60,Scheduled,7:25 PM
+4085,Delta Air Lines,"Pittsburgh, PA (PIT)", 4 , B47,Scheduled,9:00 PM
