@@ -43,13 +43,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">JFK International Airport</a>
+                <a class="navbar-brand topnav" href="index.html">JFK International Airport</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">Flight Info</a>
+                        <a href="flight-info.html">Flight Info</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting to and From</a>
@@ -96,11 +96,11 @@
                     <div class="row">
                         <div class="radio">
                             <label>
-                                <input ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="arrivals" checked> Arrivals</label>
+                                <input ng-click="updateData()" ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="arrivals" checked> Arrivals</label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="departures" checked> Departures</label>
+                                <input ng-click="updateData()" ng-model="flightType" type="radio" name="optionsRadios" id="optionsRadios1" value="departures" checked> Departures</label>
                         </div>
                     </div>
                     <div class="row">
@@ -137,8 +137,8 @@
                                 <th>Scheduled</th>
                             </tr>
                         </thead>
-                        <tbody ng-repeat="flight in flights">
-                            <tr ng-show="filterFlight(flight)">
+                        <tbody ng-repeat="flight in flights" ng-show="filterFlight(flight)">
+                            <tr>
                                 <td>{{flight.flightNumber}}</td>
                                 <td>{{flight.airline}}</td>
                                 <td>{{flight.location}}</td>
