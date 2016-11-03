@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="jfkApp">
+<html lang="en">
 
 <head>
 
@@ -30,7 +30,7 @@
 
 </head>
 
-<body ng-controller="LanguageController">
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -78,81 +78,38 @@
         <!-- /.container -->
     </nav>
 
-
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>JFK International Airport</h1>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
     <!-- /.intro-header -->
 
     <!-- Page Content -->
-
-    <a name="services"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">
-<!--                    <hr class="section-heading-spacer">-->
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Select Your Language</h2>
-                </div>
-                <div class="col-md-2 col-md-offset-1 text-center language-option" ng-click="selectLang('english')" ng-class="{selected: (selectedLang == 'english')}">
-                    <img height="40px;" src="img/us.svg">
-                    <p class="text-center">English</p>
-                </div>
-                <div class="col-md-2 text-center language-option" ng-click="selectLang('chinese')" ng-class="{selected: (selectedLang == 'chinese')}">
-                    <img height="40px;" src="img/cn.svg">
-                    <p class="text-center">Chinese</p>
-                </div>
-                <div class="col-md-2 text-center language-option" ng-click="selectLang('spanish')" ng-class="{selected: (selectedLang == 'spanish')}">
-                    <img height="40px;" src="img/es.svg">
-                    <p class="text-center">Spanish</p>
-                </div>
-                <div class="col-md-2 text-center language-option" ng-click="selectLang('french')" ng-class="{selected: (selectedLang == 'french')}">
-                    <img height="40px;" src="img/fr.svg">
-                    <p class="text-center">French</p>
-                </div>
-                <div class="col-md-2 text-center language-option" ng-click="selectLang('german')" ng-class="{selected: (selectedLang == 'german')}">
-                    <img height="40px;" src="img/de.svg">
-                    <p class="text-center">German</p>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
     <!-- /.content-section-a -->
 
-    <div class="content-section-b">
+    <div class="content-section-flight">
 
         <div class="container">
 
             <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Getting To and From</h2>
+                </div>
                 <div class="col-md-4 text-center large-link">
-                    <a href="flight-info.html">
-                        <h2 class="section-heading"><i class="fa fa-plane fa-5x icon" aria-hidden="true"></i><br>Flight Info</h2>
+                    <a href="car-rental.html">
+                        <h2 class="section-heading"><i class="fa fa-car fa-5x icon" aria-hidden="true"></i><br>Car Rental</h2>
                     </a>
                 </div>
                 <div class="col-md-4 text-center large-link">
-                    <h2 class="section-heading"><i class="fa fa-taxi fa-5x icon" aria-hidden="true"></i><br>Getting To and From</h2>
+                    <a href="driving-directions.html">
+                        <h2 class="section-heading"><i class="fa fa-road fa-5x icon" aria-hidden="true"></i><br>Driving Directions</h2>
+                    </a>
                 </div>
                 <div class="col-md-4 text-center large-link">
-                    <h2 class="section-heading"><i class="fa fa-info-circle fa-5x icon" aria-hidden="true"></i><br>Airport Info</h2>
+                    <h2 class="section-heading"><i class="fa fa-bus fa-5x icon" aria-hidden="true"></i><br>Public Transport</h2>
+                </div>
+                <div class="col-md-offset-2 col-md-4 text-center large-link">
+                    <h2 class="section-heading"><i class="fa fa-taxi fa-5x icon" aria-hidden="true"></i><br>Taxi and Van Services</h2>
+                </div>
+                <div class="col-md-4 text-center large-link">
+                    <h2 class="section-heading"><i class="fa fa-building  fa-5x icon" aria-hidden="true"></i><br>Parking</h2>
                 </div>
             </div>
 

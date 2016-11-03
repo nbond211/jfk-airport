@@ -34,12 +34,21 @@ h6 {
 display: block;
 }
 
+.language-option {
+    padding-top 200px;
+}
+
 .language-option:hover {
     background-color: lightslategray;
 }
 
 .selected {
     background-color: lightgray;
+}
+
+.large-link:hover {
+    background-color: darkgray;
+    color: white;
 }
 
 .intro-header {
