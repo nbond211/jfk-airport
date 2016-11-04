@@ -77,10 +77,32 @@ display: block;
     font-size: 5em;
 }
 
+.map1 {
+    text-align: center;
+    background: url(../img/map1.png) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+
+.map2 {
+    text-align: center;
+    background: url(../img/map2.png) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+
+.directions-button {
+    margin-top: 20px;
+}
+
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.no-padding {
+    padding: 0;
 }
 
 @media(max-width:767px) {
