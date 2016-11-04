@@ -34,8 +34,8 @@ h6 {
 display: block;
 }
 
-.language-option {
-    padding-top 200px;
+.language-option .col-md-2 div {
+    padding-top 20px;
 }
 
 .language-option:hover {
@@ -48,9 +48,32 @@ display: block;
     background-color: lightgray;
 }
 
+.large-link {
+    background-color: lightgray;
+    margin: 10px;
+}
+
 .large-link:hover {
-    background-color: darkgray;
+    background-color: lightslategray;
+}
+
+.large-link .icon {
     color: white;
+}
+
+.large-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 .intro-header {

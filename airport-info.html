@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="jfkApp">
+<html lang="en">
 
 <head>
 
@@ -30,7 +30,7 @@
 
 </head>
 
-<body ng-controller="CarController">
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -81,72 +81,69 @@
     <!-- /.intro-header -->
 
     <!-- Page Content -->
+    <!-- /.content-section-a -->
+
     <div class="content-section-flight">
 
         <div class="container">
+
             <div class="row">
                 <div class="col-lg-12 col-sm-12 text-center">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Car Rental</h2>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="row">
-                        <label for="basic-url">Pick-up Location</label>
-                        <div class="input-group">
-                            <input ng-model="pickupLocation" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <label for="basic-url">Drop-off Location</label>
-                        <div class="input-group">
-                            <input ng-model="dropoffLocation" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <label for="basic-url">Pick-up Date</label>
-                        <div class="input-group">
-                            <input ng-model="pickupDate" class="form-control" type="date" name="bday">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <label for="basic-url">Drop-off Date</label>
-                        <div class="input-group">
-                            <input ng-model="dropoffDate" class="form-control" type="date" name="bday">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <label for="basic-url">Car Type</label>
-                        <div class="input-group">
-                            <select class="form-control" name="repeatSelect" id="repeatSelect" ng-model="carType">
-                                <option ng-repeat="cartype in carTypes" value="{{cartype}}">{{cartype}}</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-4 car-card" ng-repeat="car in cars" ng-show="filterCar(car)">
-                            <div class="thumbnail">
-                                <img height="75px !important" ng-src="{{car.image}}" alt="...">
-                                <div class="caption text-center">
-                                    <h3>{{car.name}}</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 pull-right">
-                            <button class="form-control btn btn-primary">Continue</button>
-                        </div>
-                    </div>
+                    <h2 class="section-heading">Getting To and From</h2>
                 </div>
             </div>
-            <!-- /.container -->
+            <div class="row center-content">
+                <div class="col-md-3 text-center large-link">
+                    <a href="#">
+                        <h2 class="section-heading"><i class="fa fa-map fa-5x icon" aria-hidden="true"></i><br>Terminal Map</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 text-center large-link">
+                    <a href="#">
+                        <h2 class="section-heading"><i class="fa fa-plane fa-5x icon" aria-hidden="true"></i><br>Airlines</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 text-center large-link">
+                    <a href="#">
+                        <h2 class="section-heading"><i class="fa fa-cutlery fa-5x icon" aria-hidden="true"></i><br>Shops and Restaurants</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="row center-content">
+                <div class="col-md-3 text-center large-link">
+                    <a href="#">
+                        <h2 class="section-heading"><i class="fa fa-bed fa-5x icon" aria-hidden="true"></i><br>Hotels</h2>
+                    </a>
+                </div>
+                <div class="col-md-3 text-center large-link">
+                    <a href="#">
+                        <h2 class="section-heading"><i class="fa fa-wheelchair  fa-5x icon" aria-hidden="true"></i><br>Accessibility Services</h2>
+                    </a>
+                </div>
+            </div>
+
 
         </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
     <!-- /.content-section-a -->
+
 
     <!-- Footer -->
     <footer>
