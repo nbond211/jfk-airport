@@ -42,6 +42,8 @@ display: block;
     background-color: lightslategray;
 }
 
+.thumbnail img { min-height:200px; height:200px; }
+
 .selected {
     background-color: lightgray;
 }
