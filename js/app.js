@@ -68,6 +68,10 @@ jfkApp.controller('CarController', function CarController($scope) {
     
     $scope.carTypes = ["Compact", "Sedan", "Mid-size", "SUV", "Truck"];
     
+    $scope.selectCar = function(car) {
+        $scope.selectedCar = car;
+    }
+    
     $scope.filterCar = function(car) {
         if ($scope.pickupDate == undefined && $scope.carType == undefined) {
             return true;
@@ -76,13 +80,9 @@ jfkApp.controller('CarController', function CarController($scope) {
             return car.type == $scope.carType;
         }
         if ($scope.carType == undefined) {
-            console.log(car.available);
-            console.log($scope.pickupDate);
             return car.available.toDateString() == $scope.pickupDate.toDateString();
         }
         else {
-            console.log(car.available);
-            console.log($scope.pickupDate);
             return car.type == $scope.carType && car.available.toDateString() == $scope.pickupDate.toDateString();
         }
     };
@@ -113,7 +113,7 @@ jfkApp.controller('CarController', function CarController($scope) {
             name: "Toyota Camry", 
             type: "Sedan", 
             available: new Date("2017-01-05T05:00:00.000Z"), 
-            image: "http://carpreview.com/wp-content/uploads/2015/11/pic-1-1.jpg",
+            image: "http://o.aolcdn.com/commerce/autodata/images/USC60TOC021A021001.jpg",
             selected: false
         },
         {
@@ -138,7 +138,7 @@ jfkApp.controller('CarController', function CarController($scope) {
             selected: false
         },
         {
-            name: "Land Rover Range Rover", 
+            name: "Range Rover", 
             type: "SUV", 
             available: new Date("2017-01-05T05:00:00.000Z"), 
             image: "https://a.gaw.to/photos/8/2/82154_2017_landrover_Range_Rover.jpg?460x287",
@@ -148,7 +148,7 @@ jfkApp.controller('CarController', function CarController($scope) {
             name: "Jeep Wrangler", 
             type: "SUV", 
             available: new Date("2017-01-05T05:00:00.000Z"), 
-            image: "http://carpreview.com/wp-content/uploads/2016/05/pic-1-4.jpg",
+            image: "http://images.hgmsites.net/hug/2016-jeep-wrangler-unlimited-75th-anniversary-edition_100541633_h.jpg",
             selected: false
         },
         {

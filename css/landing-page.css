@@ -61,6 +61,18 @@ display: block;
     color: white;
 }
 
+.thumbnail:hover {
+    background-color: lightgray;
+}
+
+.selected-car-thumbnail {
+    background-color: lightslategray;
+}
+
+.selected-car-thumbnail h3 {
+    color: white;
+}
+
 .large-link a {
     color: white;
     text-decoration: none;
