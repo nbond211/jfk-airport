@@ -165,7 +165,7 @@ jfkApp.controller('CarController', function CarController($scope) {
 
 // Define the `DirectionsController` controller
 jfkApp.controller('DirectionsController', function DirectionsController($scope) {
-    $scope.startingLocation = "JFK International Airport";
+    $scope.destination = "JFK International Airport";
     
     $scope.showDirections = false;
     
