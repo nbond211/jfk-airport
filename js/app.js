@@ -23,6 +23,9 @@ jfkApp.controller('FlightController', function FlightController($scope, $http) {
 
     $scope.airline = '';
     $scope.flightNumber = '';
+    
+    $scope.sortType     = 'flightNumber';
+    $scope.sortReverse  = false;
 
     $scope.airlines = ["Delta Air Line", "Air France", "American Airlines", "Korean Air"];
 

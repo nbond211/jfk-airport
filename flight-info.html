@@ -126,16 +126,34 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>Flight Number</th>
-                                <th>Airline</th>
-                                <th>Location</th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'flightNumber'; sortReverse = !sortReverse">
+                                        Flight Number
+                                        <span ng-show="sortType == 'flightNumber' && !sortReverse" class="fa fa-caret-down"></span>
+                                        <span ng-show="sortType == 'flightNumber' && sortReverse" class="fa fa-caret-up"></span>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'airline'; sortReverse = !sortReverse">
+                                        Airline
+                                        <span ng-show="sortType == 'airline' && !sortReverse" class="fa fa-caret-down"></span>
+                                        <span ng-show="sortType == 'airline' && sortReverse" class="fa fa-caret-up"></span>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="#" ng-click="sortType = 'location'; sortReverse = !sortReverse">
+                                        Location
+                                        <span ng-show="sortType == 'location' && !sortReverse" class="fa fa-caret-down"></span>
+                                        <span ng-show="sortType == 'location' && sortReverse" class="fa fa-caret-up"></span>
+                                    </a>
+                                </th>
                                 <th>Terminal</th>
                                 <th>Gate</th>
                                 <th>Status</th>
                                 <th>Scheduled</th>
                             </tr>
                         </thead>
-                        <tbody ng-repeat="flight in flights" ng-show="filterFlight(flight)">
+                        <tbody ng-repeat="flight in flights | orderBy:sortType:sortReverse" ng-show="filterFlight(flight)">
                             <tr>
                                 <td>{{flight.flightNumber}}</td>
                                 <td>{{flight.airline}}</td>
