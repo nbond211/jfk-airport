@@ -52,7 +52,7 @@
                         <a href="flight-info.html">Flight Info</a>
                     </li>
                     <li class="dropdown">
-                        <a href="getting-to-and-from.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting To & From</a>
+                        <a href="getting-to-and-from.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Getting To & From</a>
                         <ul class="dropdown-menu">
                             <li><a href="car-rental.html">Car Rental</a></li>
                             <li><a href="driving-directions.html">Driving Directions</a></li>
@@ -62,7 +62,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="airport-info.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Airport Info</a>
+                        <a href="airport-info.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Airport Info</a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Terminal Map</a></li>
                             <li><a href="#">Airlines</a></li>
@@ -87,11 +87,11 @@
                     <h4 class="modal-title" id="myModalLabel">Car Rental Confirmation</h4>
                 </div>
                 <div class="modal-body">
-                    <h3><span class="label label-primary">Car:</span> {{selectedCar.name}}</h3>
-                    <h4><span class="label label-primary">Pick-up Location:</span> {{pickupLocation}}</h4>
-                    <h4><span class="label label-primary">Drop-off Location:</span>  {{dropoffLocation}}</h4>
-                    <h4><span class="label label-primary">Pick-up Date:</span>  {{pickupDate.toLocaleDateString()}}</h4>
-                    <h4><span class="label label-primary">Drop-off Date:</span>  {{dropoffDate.toLocaleDateString()}}</h4>
+                    <h3>Car: <span class="label label-default">{{selectedCar.name}}</span></h3>
+                    <h4>Pick-up Location: <span class="label label-default">{{pickupLocation}}</span></h4>
+                    <h4>Drop-off Location: <span class="label label-default">{{dropoffLocation}}</span></h4>
+                    <h4>Pick-up Date: <span class="label label-default">{{pickupDate.toLocaleDateString()}}</span></h4>
+                    <h4>Drop-off Date: <span class="label label-default">{{dropoffDate.toLocaleDateString()}}</span></h4>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-2 pull-right">
-                            <button data-toggle="modal" data-target="#myModal" ng-show="selectedCar != undefined" class="form-control btn btn-primary">Continue</button>
+                            <button data-toggle="modal" data-target="#myModal" ng-show="selectedCar != undefined && pickupDate != undefined && dropoffDate != undefined" class="form-control btn btn-primary">Continue</button>
                         </div>
                     </div>
                 </div>
