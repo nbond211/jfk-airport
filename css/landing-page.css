@@ -89,8 +89,8 @@ display: block;
 }
 
 .intro-header {
-    padding-top: 160px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 130px;
+    padding-top: 75px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 75px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/banner-bg-fade.jpg) no-repeat center center;
