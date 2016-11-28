@@ -90,6 +90,17 @@ jfkApp.controller('CarController', function CarController($scope) {
         }
     };
     
+    $scope.carsToShow = function() {
+        var count = 0;
+        
+        for (var i = 0; i < $scope.cars.length; i++) {
+            if ($scope.filterCar($scope.cars[i])) {
+                count++
+            }
+        }
+        return (count == 0);
+    }
+    
     $scope.cars = [
         {
             name: "Honda Civic", 
